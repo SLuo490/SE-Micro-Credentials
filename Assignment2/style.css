@@ -83,8 +83,23 @@ iframe {
   padding-top: 3.5rem;
 }
 
+button {
+  margin-top: 3rem;
+  margin-left: 8rem;
+  padding: 10px 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: bolder;
+}
+
 footer {
   background-color: black;
   color: white;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
