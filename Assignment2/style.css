@@ -40,6 +40,47 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 25px;
+}
+
+iframe {
+  border: 3px solid hotpink;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.content .image img {
+  border-radius: 3%;
+  border: 2px solid black;
+}
+
+.content .image {
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+}
+
+.arialHotPink {
+  font-family: 'Arial', sans-serif;
+  background-color: hotpink;
+  padding-top: 3.5rem;
+}
+
+.courierPink {
+  font-family: 'Courier New', sans-serif;
+  background-color: pink;
+  padding-top: 3.5rem;
+  overflow-wrap: break-word;
+}
+
+.corsivaLightPink {
+  font-family: 'Corsiva', serif;
+  background-color: lightpink;
+  padding-top: 3.5rem;
 }
 
 footer {
