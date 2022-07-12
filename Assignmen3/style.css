@@ -14,18 +14,27 @@ body {
   background-size: cover;
 }
 
-.clock-image {
-  height: 300px;
-  width: 300px;
-  background-size: 300px 300px;
-  position: relative;
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(128, 128, 128, 0.6);
+  width: 45%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 10px;
 }
 
-.hours,
-.minutes {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 5%;
-  width: 8%;
+.info p {
+  color: white;
 }
+
+.info a {
+  padding-bottom: 10px;
+}
+
+
