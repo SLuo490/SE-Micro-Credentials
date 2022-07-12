@@ -1,0 +1,31 @@
+# {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: url('images/nycSkyline.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.clock-image {
+  height: 300px;
+  width: 300px;
+  background-size: 300px 300px;
+  position: relative;
+}
+
+.hours,
+.minutes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5%;
+  width: 8%;
+}
