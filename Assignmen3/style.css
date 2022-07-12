@@ -50,21 +50,48 @@ body {
   border-radius: 50%;
 }
 
-.minutes img {
-  position: fixed;
-  top: 2rem;
-  left: 6.7rem;
+.clock .hand {
+  position: absolute;
+  top: 5.3rem;
+  left: 10rem;
+  width: 0;
+}
 
-  width: 8rem;
-  height: 8.9rem;
+.clock .hand.hours img {
+  width: 6.5rem;
+  height: 10rem;
+  transform-origin: 100%;
+}
+
+.clock .hand.minutes img {
+  width: 10rem;
+  height: 10rem;
+  transform-origin: 100%;
+}
+
+.minutes img {
+  transform: translateY(10px);
+}
+
+.minutes {
   transform: rotate(-90deg);
 }
 
-.hours img {
-  position: fixed;
-  top: 6.7rem;
-  left: 10.25rem;
+@keyframes hour-hand {
+  100% {
+    transform: rotate(30deg);
+  }
+}
 
-  width: 6.5rem;
-  height: 8rem;
+@keyframes minute-hand {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hours {
+  animation: hour-hand 10s infinite linear;
+}
+.minutes {
+  animation: minute-hand 10s infinite linear;
 }
