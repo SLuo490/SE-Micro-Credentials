@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* heading icons */
+.heading #left {
+  align-items: flex-start;
+}
+
+.heading #right {
+  float: right;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+/* containers */
+.container h1 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.container p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.content {
+  border: 3px solid black;
+  background-color: pink;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.content h3 {
+  color: white;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+/* Section 1 and 2 */
+.section-1,
+.section-2 {
+  display: flex;
+  align-items: center;
+}
+
+.section-1 img {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  border: 3px solid purple;
+}
+
+.section-1 figcaption {
+  margin-left: 10rem;
+}
+
+.img-caption {
+  color: white;
+}
+
+.section-1 p {
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.section-2 p {
+  margin-left: 10rem;
+  margin-right: 9rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.section-2 img {
+  margin-right: 10rem;
+  margin-top: 2rem;
+  border: 3px solid purple;
+}
+
+.section-2 figcaption {
+  margin-bottom: 3rem;
+}
+
+/* Upcoming event section */
+ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.events {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.events h3 {
+  margin-bottom: 1rem;
+}
+
+.events li {
+  margin-left: 1.5rem;
+}
+
+/* News feed */
+.newsfeed {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.newsfeed h3 {
+  margin-bottom: 1rem;
+}
+
+.newsfeed dt {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.newsfeed dd {
+  margin-bottom: 5px;
+  margin-left: 2rem;
+}
+
+/* Cost */
+.cost {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.cost h3 {
+  margin-bottom: 1rem;
+}
+
+.cost .green {
+  background-color: lightgreen;
+}
+
+.cost .pink {
+  background-color: pink;
+}
+
+/* Contact */
+.contact {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.contact h3 {
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info div {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+/* Hiking and Northern Light Page */
+.hiking-title,
+.nl-title {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hiking-section,
+.nl-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiking-section img,
+.nl-section img {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+}
+
+.hiking-section .info,
+.nl-section .info {
+  border: 6px solid #4f81bd;
+  background-color: #eeece1;
+  width: 600px;
+  height: 400px;
+}
+
+.info p {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.86rem;
+}
+
+/* Hiking Info Continue */
+
+.info-continue {
+  margin-top: 2.5rem;
+}
+
+.info-continue p {
+  text-align: left;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.info-continue > p:last-child {
+  margin-bottom: 3rem;
+}
+
+.lineBr {
+  margin-bottom: 3rem;
+}
+
+.hiking-lineBr {
+  margin-bottom: 5rem;
+}
+
+/* End Nav */
+
+.endNav {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.endNav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.endNav a {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
