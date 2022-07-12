@@ -37,4 +37,34 @@ body {
   padding-bottom: 10px;
 }
 
+/* Clock */
+.clock img {
+  background-size: 50%;
+  height: 20rem;
+  width: 20rem;
+  position: relative;
+}
 
+.clock-img {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+.minutes img {
+  position: fixed;
+  top: 2rem;
+  left: 6.7rem;
+
+  width: 8rem;
+  height: 8.9rem;
+  transform: rotate(-90deg);
+}
+
+.hours img {
+  position: fixed;
+  top: 6.7rem;
+  left: 10.25rem;
+
+  width: 6.5rem;
+  height: 8rem;
+}
